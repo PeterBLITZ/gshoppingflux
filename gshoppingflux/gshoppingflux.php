@@ -2135,8 +2135,7 @@ class GShoppingFlux extends Module
         }
 
         // Google Shopping XML
-        $xml = '<?xml version="1.0" encoding="'.self::CHARSET.'" ?>'."\n";
-        $xml .= '<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">'."\n\n";
+        $xml = '<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">'."\n\n";
         $xml .= '<channel>'."\n";
         // Shop name
         $xml .= '<title><![CDATA['.$this->shop->name.']]></title>'."\n";
